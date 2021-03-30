@@ -1,0 +1,38 @@
+html, body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.gradient {
+    background: rgb(24,12,237);
+    background: linear-gradient(138deg, rgba(24,12,237,1) 4%, rgba(9,9,121,1) 95%); 
+}
+
+#Features ul {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+#Features ul li {
+    background: url(img/check.svg) no-repeat;
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+#Features p {
+    margin: 0;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#Gallery {
+    background-color: whitesmoke;
+}
+
+
